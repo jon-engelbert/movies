@@ -31,15 +31,8 @@ def init_movies():
     movies = [toy_story, avatar, sting, princess_bride]
     return movies
 
-def test(movies):
-    """
-    :param movies: list of movies.  Test to verify that it's populated correctly
-    :return:None
-    """
-    assert(len(movies) == 4)
-    assert(movies[0].title == "Toy Story")
 
-movies = init_movies()
-test(movies)
-fresh_tomatoes.open_movies_page(movies)
+if __name__ == "__main__":
+    movies = init_movies()
+    fresh_tomatoes.open_movies_page(movies)
 
