@@ -3,7 +3,10 @@ import media
 __author__ = 'jonengelbert'
 
 def init_movies():
-    """initializes movies structure, then returns it.  Future versions should pull movies from a database"""
+    """
+    initializes movies structure, then returns it.  Future versions should pull movies from a database
+    :return: list of movies
+    """
     toy_story = media.Movie("Toy Story",
                             120,
                            "A story of a boy and his toys",

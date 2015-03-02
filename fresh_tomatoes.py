@@ -129,7 +129,11 @@ movie_tile_content = '''
 '''
 
 def create_movie_tiles_content(movies):
-    # The HTML content for this section of the page
+    """
+    Creates the HTML content for this section of the page
+    :param movies: list of movies
+    :return: html content for the web page
+    """
     content = ''
     for movie in movies:
         # Extract the youtube ID from the url
